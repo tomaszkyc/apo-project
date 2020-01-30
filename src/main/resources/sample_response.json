@@ -1,0 +1,64 @@
+{
+    "categories": [
+        {
+            "name": "outdoor_street",
+            "score": 0.97265625,
+            "detail": {
+                "landmarks": []
+            }
+        }
+    ],
+    "color": {
+        "dominantColorForeground": "White",
+        "dominantColorBackground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "accentColor": "C4A407",
+        "isBwImg": false,
+        "isBWImg": false
+    },
+    "description": {
+        "tags": [
+            "building",
+            "outdoor",
+            "street",
+            "road",
+            "scene",
+            "city",
+            "sidewalk",
+            "walking",
+            "people",
+            "busy",
+            "many",
+            "large",
+            "riding",
+            "pedestrians",
+            "group",
+            "traffic",
+            "bus",
+            "man",
+            "tall",
+            "woman",
+            "parked",
+            "standing",
+            "holding",
+            "umbrella",
+            "rainy",
+            "decker"
+        ],
+        "captions": [
+            {
+                "text": "a group of people walking down a busy city street",
+                "confidence": 0.98566693136261807
+            }
+        ]
+    },
+    "requestId": "b203bd7c-e828-42b9-ab2a-5118b692f475",
+    "metadata": {
+        "width": 1500,
+        "height": 1000,
+        "format": "Jpeg"
+    }
+}

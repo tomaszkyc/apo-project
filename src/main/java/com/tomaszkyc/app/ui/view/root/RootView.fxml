@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="781.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tomaszkyc.app.ui.view.root.RootViewController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="970.0">
+        <menus>
+          <Menu fx:id="fileMenu" mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="openFileMenuItem" mnemonicParsing="false" onAction="#handleOpenImage" text="Open file" />
+              <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" onAction="#handleExit" text="Close" />
+            </items>
+          </Menu>
+          <Menu fx:id="helpMenu" mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#handleAbout" text="About" />
+                  <MenuItem fx:id="changeLanguageMenuItem" mnemonicParsing="false" onAction="#handleChangeLanguage" text="Change language" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane fx:id="tabPane" layoutX="-4.0" layoutY="29.0" prefHeight="751.0" prefWidth="974.0" tabClosingPolicy="ALL_TABS" />
+   </children>
+</AnchorPane>
